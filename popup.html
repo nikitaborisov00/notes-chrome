@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+
+        <title>Заметки</title>
+
+        <link rel="stylesheet" type="text/css" href="css/jquery.datetimepicker.min.css" />
+        <link rel="stylesheet" type="text/css" href="css/popup.css" />
+    </head>
+
+    <body>
+        <div class="popup_wrapper">
+            <div class="add_new">
+                <img width="20" src="images/add.svg" />
+
+                <p>Добавить</p>
+            </div>
+
+            <ul class="notes_list">
+                
+            </ul>
+
+            <form class="add_new_form">
+                <h2>Добавить заметку</h2>
+
+                <input type="text" name="name" placeholder="Название" required="" />
+
+                <input type="text" name="date" placeholder="Дата и время" required="" readonly="" />
+
+                <button type="submit">Добавить</button>
+            </form>
+        </div>
+
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/jquery.datetimepicker.full.min.js"></script>
+        <script type="text/javascript" src="js/popup.js"></script>
+    </body>
+</html>
